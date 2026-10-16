@@ -1,0 +1,15 @@
+{
+  "name": "bkb-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bin Kamal Builders — static website with a Vercel serverless enquiry mailer (Google SMTP).",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "node dev-server.js"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.16"
+  }
+}

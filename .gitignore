@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Local environment (never commit real credentials)
+.env
+.env.local
+
+# Generated test output
+tools/email-preview.html
+
+# Vercel
+.vercel
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
